@@ -13,3 +13,11 @@ http://kunststube.net/encoding/
 ![lookup](https://raw.githubusercontent.com/SeanPlusPlus/Notes/master/imgs/utf_lookup.png)
 
 - Unicode is a large table mapping characters to numbers and the different UTF encodings specify how these numbers are encoded as bits.
+
+https://docs.python.org/2/howto/unicode.html
+
+- A Unicode string is a sequence of code points, which are numbers from 0 to 0x10ffff.
+
+- The rules for translating a Unicode string into a sequence of bytes are called an encoding.
+
+- UTF stands for “Unicode Transformation Format”, and the ‘8’ means that 8-bit numbers are used in the encoding.
