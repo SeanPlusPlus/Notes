@@ -11,3 +11,5 @@ http://kunststube.net/encoding/
 - If a character can be represented using a single byte (because its code point is a very small number), UTF-8 will encode it with a single byte. If it requires two bytes, it will use two bytes and so on. It has elaborate ways to use the highest bits in a byte to signal how many bytes a character consists of. This can save space, but may also waste space if these signal bits need to be used often. UTF-16 is in the middle, using at least two bytes, growing to up to four bytes as necessary.
 
 ![lookup](https://raw.githubusercontent.com/SeanPlusPlus/Notes/master/imgs/utf_lookup.png)
+
+- Unicode is a large table mapping characters to numbers and the different UTF encodings specify how these numbers are encoded as bits.
