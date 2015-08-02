@@ -2,7 +2,7 @@
 
 http://kunststube.net/encoding/
 
-### Unicode is a large table mapping characters to numbers and the different UTF encodings specify how these numbers are encoded as bits.
+- Unicode is a large table mapping characters to numbers and the different UTF encodings specify how these numbers are encoded as bits.
 
 - Unicode first and foremost defines a table of code points for characters. That's a fancy way of saying "65 stands for A, 66 stands for B and 9,731 stands for ☃" (seriously, it does).  How these code points are actually encoded into bits is a different topic.
 
