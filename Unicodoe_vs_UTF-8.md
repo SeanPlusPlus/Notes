@@ -1,4 +1,4 @@
-# Unicode vs utf-8
+# Unicode vs UTF-8
 
 http://kunststube.net/encoding/
 
